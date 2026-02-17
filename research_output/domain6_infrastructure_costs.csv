@@ -16,3 +16,10 @@ D6-014,Object Storage,DigitalOcean Spaces Minimum Cost,5,USD/month,2025,CDN Prov
 D6-015,Compute,AWS m4.xlarge Instance Cost,0.20,USD/hour,2025,Streamline Video Reference,https://github.com/streamlinevideo/streamline,Tier 2,MEDIUM,~$4.80/day or ~$144/month for origin server,2026-02-17
 D6-016,CDN,Amazon CloudFront Cost (US),0.02,USD/GB,2025,System Design CDN,https://github.com/DreamOfTheRedChamber/system-design-interviews/blob/master/networkComponents/cdn.md,Tier 2,MEDIUM,Regional pricing - US region rate,2026-02-17
 D6-017,CDN,Large-Scale CDN Daily Cost Example,150000,USD/day,2025,System Design CDN,https://github.com/DreamOfTheRedChamber/system-design-interviews/blob/master/networkComponents/cdn.md,Tier 2,MEDIUM,Calculation: 5M users × 5 videos × 0.3GB × $0.02/GB,2026-02-17
+Encoding,AWS MediaConvert,Cost per Minute,0.0075,USD,Basic,Global,https://aws.amazon.com/mediaconvert/pricing/,2026-02-17,2026-02-17,Tier 1,HIGH,First 100k normalized minutes
+Encoding,AWS MediaConvert,Cost per Minute,0.015,USD,Professional,Global,https://dev.to/mustafabalila,2026-02-17,2026-02-17,Tier 2,MEDIUM,720p and above
+CDN,AWS CloudFront,Cost per GB,0.085,USD,Standard,US/Europe,https://blog.cdnsun.com/cloudfront-vs-fastly/,2026-02-17,2026-02-17,Tier 2,MEDIUM,Post-free tier pricing
+DRM,Multi-DRM Service,Setup Fee,10000,USD,Entry,Global,https://www.kinescope.com/blog/video-drm-protection-guide-2026,2026-02-17,2026-02-17,Tier 2,MEDIUM,Widevine + FairPlay setup
+DRM,Multi-DRM Service,Monthly Fee,500,USD,Entry,Global,https://www.kinescope.com/blog/video-drm-protection-guide-2026,2026-02-17,2026-02-17,Tier 2,MEDIUM,Ongoing management
+Payments,Stripe,Transaction Fee,2.9,Percent,Standard,US,https://www.swipesum.com/insights/guide-to-stripe-fees-rates-for-2025,2026-02-17,2026-02-17,Tier 2,MEDIUM,Plus 30 cents per transaction
+Payments,Braintree,Transaction Fee,2.59,Percent,Standard,US,https://wise.com/us/blog/best-payment-gateway,2026-02-17,2026-02-17,Tier 2,MEDIUM,Plus 49 cents per transaction

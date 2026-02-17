@@ -4,3 +4,11 @@ D3-002,Scale Economics,Large Platform Daily CDN Cost (5M users),150000,USD/day,2
 D3-003,Scale Economics,Monthly CDN Cost at 5M User Scale,4500000,USD/month,2025,System Design CDN,https://github.com/DreamOfTheRedChamber/system-design-interviews/blob/master/networkComponents/cdn.md,Tier 2,MEDIUM,$150K/day × 30 days = $4.5M/month CDN costs,2026-02-17
 D3-004,User Engagement,Average Videos per User (Assumption),5,videos/day,2025,System Design CDN,https://github.com/DreamOfTheRedChamber/system-design-interviews/blob/master/networkComponents/cdn.md,Tier 2,LOW,Used in example calculation - may vary by platform,2026-02-17
 D3-005,Content Delivery,Average Video Size (Assumption),0.3,GB/video,2025,System Design CDN,https://github.com/DreamOfTheRedChamber/system-design-interviews/blob/master/networkComponents/cdn.md,Tier 2,LOW,Used in cost calculation - varies by resolution,2026-02-17
+Netflix,Subscribers,Paid Memberships,325,Millions,2025-12-31,Global,https://ir.netflix.net,2026-02-17,Tier 1,HIGH,Official Q4 2025
+Disney+,Subscribers,Paid Memberships,157,Millions,2025-12-31,Global,https://investors.thewaltdisneycompany.com,2026-02-17,Tier 1,HIGH,Official Q4 2025
+Amazon Prime Video,Subscribers,Estimated Members,200,Millions,2025-12-31,Global,https://adwave.com,2026-02-17,Tier 2,MEDIUM,Industry estimate
+Amazon Prime Video,Content,Library Size,68500,Titles,2025-06-30,Global,https://mediapost.com,2026-02-17,Tier 2,MEDIUM,Largest overall library
+Netflix,Content,Library Size,18000,Titles,2025-12-31,Global,https://linkedin.com,2026-02-17,Tier 2,MEDIUM,Industry estimate
+Tencent Video,Subscribers,Paid Memberships,117,Millions,2025-03-31,China,https://electroiq.com,2026-02-17,Tier 2,MEDIUM,China market leader
+JioHotstar,Subscribers,Paying Subscribers,300,Millions,2025-12-31,India,https://facebook.com/Techmeme,2026-02-17,Tier 2,MEDIUM,HSBC report via Techmeme
+Netflix,Market Share,Subscriber Share,39,Percent,2025-12-31,Africa,https://statista.com,2026-02-17,Tier 2,MEDIUM,Dominant in Africa

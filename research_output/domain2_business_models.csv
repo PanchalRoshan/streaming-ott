@@ -1,2 +1,12 @@
 Data Point ID,Category,Metric/Finding,Value,Unit,Year,Source Name,Source URL,Source Tier,Confidence,Notes,Date Added
 D2-001,FAST Economics,,,,,,,,,,,
+Netflix,SVOD/Hybrid,Revenue,12051,USD Millions,Q4,2025,Global,https://ir.netflix.net,2026-02-17,Tier 1,HIGH,Official Q4 2025 Letter
+Netflix,SVOD/Hybrid,Operating Income,2957,USD Millions,Q4,2025,Global,https://ir.netflix.net,2026-02-17,Tier 1,HIGH,Official Q4 2025 Letter
+Netflix,SVOD/Hybrid,Paid Memberships,325,Millions,Q4,2025,Global,https://ir.netflix.net,2026-02-17,Tier 1,HIGH,Crossed 325M milestone
+Netflix,AVOD,Ad Revenue,1500,USD Millions,FY,2025,Global,https://ir.netflix.net,2026-02-17,Tier 1,HIGH,Rose more than 2.5x YoY
+Disney+,SVOD/Hybrid,Revenue,5346,USD Millions,Q1,2026,Global,https://investors.thewaltdisneycompany.com,2026-02-17,Tier 1,HIGH,Entertainment SVOD segment
+Disney+,SVOD/Hybrid,Operating Income,450,USD Millions,Q1,2026,Global,https://investors.thewaltdisneycompany.com,2026-02-17,Tier 1,HIGH,Entertainment SVOD segment
+Industry,AVOD,Market Revenue,14.3,USD Billions,FY,2024,US,https://adwave.com,2026-02-17,Tier 2,MEDIUM,Adwave report
+Industry,FAST,Viewing Growth,43,Percent,FY,2025,US,https://comscore.com,2026-02-17,Tier 2,MEDIUM,Comscore 2025 report
+Netflix,SVOD,Churn Rate,2.25,Percent,Avg,2025,US,https://antenna.live,2026-02-17,Tier 2,MEDIUM,Antenna benchmarks
+Disney+,SVOD,Churn Rate,4.75,Percent,Avg,2025,US,https://antenna.live,2026-02-17,Tier 2,MEDIUM,Antenna benchmarks
