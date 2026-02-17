@@ -171,10 +171,51 @@
 
 ## CRITICAL FAILURES & RECOVERIES
 
+### Web Access Limitations (GitHub Actions Environment)
+
+**Critical Blocker Discovered:** 2026-02-17 Session 4
+
+The GitHub Actions environment has severe web access restrictions (ERR_BLOCKED_BY_CLIENT errors) that block:
+
+**BLOCKED Categories:**
+- ✗ Commercial vendor pricing pages (AWS, Google Cloud, Stripe, etc.)
+- ✗ Streaming platform websites (Netflix, Disney+, etc.)
+- ✗ Industry organization websites (Alliance for Open Media, DASH-IF)
+- ✗ Most CDN vendor sites
+- ✗ Many commercial news/trade publication sites
+
+**ACCESSIBLE Sources:**
+- ✓ GitHub repositories (code search, file content)
+- ✓ Some academic repositories (needs testing: arXiv, IEEE, etc.)
+- ✓ Some open standards documents (if hosted on accessible domains)
+
+**Workarounds Attempted:**
+1. Direct navigation to vendor pricing → FAILED (ERR_BLOCKED_BY_CLIENT)
+2. Accessing platform official sites → FAILED (ERR_BLOCKED_BY_CLIENT)
+3. GitHub code search → SUCCESS
+4. GitHub file content retrieval → SUCCESS
+
+**Impact on Research:**
+- ~80% of cataloged sources in Phase 2 are inaccessible
+- Original Phase 3 plan (direct web research) is NOT viable
+- Need alternative research strategy focused on GitHub-based resources
+
+**Mitigation Strategy:**
+- Focus on GitHub repositories with OTT streaming research
+- Extract data from open-source documentation and README files
+- Parse technical specifications available in repos
+- Leverage Phase 0 existing research (78 data points already extracted)
+- Supplement with accessible academic papers if available
+
 ### Paywall Encounters
 *Track which critical sources are paywalled and what workarounds were attempted*
 
-- TBD during research
+**Known Paywalled Sources (from Phase 2):**
+- Parks Associates (OTT Video Market Tracker)
+- Ampere Analysis (SVOD Forecasts)
+- eMarketer (CTV Advertising Reports)
+
+**Status:** Not yet attempted (web access blocked first)
 
 ### Data Quality Issues
 *Track sources that initially seemed good but turned out unreliable*
@@ -184,7 +225,7 @@
 ### Research Dead Ends
 *Track topics that consumed time but yielded no usable data*
 
-- TBD during research
+- Phase 3 Initial Attempt: Discovered environment access restrictions after attempting 5+ sources
 
 ---
 
