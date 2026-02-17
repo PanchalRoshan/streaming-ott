@@ -11,34 +11,91 @@
 ### Tier 1 Sources Discovered
 (Major industry reports, vendor official docs, academic papers)
 
-*None discovered yet - Phase 2 will populate this*
+**Phase 2 Initial Catalog - 107 sources identified across 3 priority domains:**
+
+**Platform Official Sources (TIER 1 - Highest Priority):**
+- Netflix: Open Connect docs, Tech Blog, Investor Relations, ISP Speed Index
+- Disney+: Investor Relations, AWS re:Invent architecture talks
+- Prime Video: Video Direct docs, Amazon 10-K filings
+- FAST Platforms: Pluto TV advertiser resources, Tubi partner docs, Xumo platform stats
+
+**Industry Research Firms (TIER 1 - Often Paywalled):**
+- Parks Associates (OTT Video Market Tracker)
+- Ampere Analysis (SVOD Forecasts)
+- Conviva (State of Streaming quarterly reports)
+- Sandvine (Global Internet Phenomena Report)
+- eMarketer (CTV Advertising Forecasts)
+
+**Academic & Technical:**
+- Alliance for Open Media (AV1 codec specifications)
+- ACM/IEEE papers on CDN costs, streaming behavior
+- WebRTC.org official documentation
 
 **Patterns that work:**
-- TBD based on Phase 2-3 research
+1. **Official platform sources first** - Netflix Tech Blog, earnings calls have hard data
+2. **Follow the money** - Investor relations docs must disclose key metrics (subscribers, ARPU)
+3. **Vendor case studies** - AWS/Google Cloud case studies reveal architecture patterns
+4. **Industry benchmark reports** - Conviva, Sandvine provide comparative data across platforms
 
 ### Tier 2 Sources Discovered
 (Industry analyst blogs, trade publications, credible tech media)
 
-*None discovered yet - Phase 2 will populate this*
+**Trade Publications Identified:**
+- Streaming Media Magazine (deep technical coverage)
+- VideoWeek (industry news, FAST focus)
+- Broadcasting & Cable / NextTV (traditional media perspective)
+- AdExchanger (programmatic CTV, ad tech stack)
+- Digiday (CTV advertising trends)
+
+**CDN Vendor Resources:**
+- Akamai (video streaming solutions, cost per GB trends)
+- Cloudflare (Stream delivery, Workers edge computing)
+- Fastly (media delivery, real-time streaming)
+- AWS MediaServices case studies
+- Google Cloud Media CDN resources
+
+**Subscription Analytics:**
+- Antenna (actual churn data - potentially high value)
+- ProfitWell (churn benchmarks by industry)
+- Recurly (subscription economy reports)
+
+**Streaming Aggregators:**
+- Reelgood (content library analytics)
+- JustWatch (market share by country)
 
 **Patterns that work:**
-- TBD based on Phase 2-3 research
+1. **Trade pubs often cite Tier 1 sources** - Good for finding paywalled report summaries
+2. **Vendor case studies have real numbers** - When they need to prove ROI
+3. **Conference proceedings** - NAB, IBC, AWS re:Invent have platform case studies
 
 ### Tier 3 Sources Discovered
 (General news, opinion pieces, older data)
 
 *Existing research mostly falls here - internal StreamIT strategy docs*
 
+**Tech Media (use selectively):**
+- The Verge, Ars Technica, Protocol (good when citing platform announcements with data)
+
 ### Source Quality Lessons
 
-**Red Flags Learned:**
-- TBD during research
-
 **Green Flags to Prioritize:**
-- TBD during research
+- ✅ **Direct platform disclosures** (earnings calls, tech blogs) - highest credibility
+- ✅ **"We measured X" statements** - Conviva, Sandvine measure actual traffic
+- ✅ **Vendor case studies with customer quotes** - Real implementation data
+- ✅ **Academic papers with methodology sections** - Replicable findings
+- ✅ **Industry association reports** (IAB, Streaming Video Alliance) - Survey-based data
+
+**Red Flags to Watch For:**
+- ⚠️ **"Industry experts estimate"** without attribution - opinion, not data
+- ⚠️ **Old data (>2 years)** for fast-moving metrics (codec adoption, CPMs)
+- ⚠️ **Single-source claims** without corroboration
+- ⚠️ **Vendor whitepapers with no methodology** - marketing, not research
 
 **Best Performing Domains for Sources:**
-- TBD after Phase 2 source discovery
+- **Domain 3 (Competitive):** EXCELLENT - Platforms must disclose subscriber/revenue data in earnings
+- **Domain 1 (Technology):** GOOD - Codec consortiums publish specs, vendors share benchmarks
+- **Domain 2 (Business Models):** MODERATE - Ad tech industry shares CPM ranges, but FAST specifics harder
+- **Domains 4-7:** TBD - Not yet cataloged
 
 ---
 
