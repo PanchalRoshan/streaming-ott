@@ -1,2 +1,17 @@
 Data Point ID,Category,Metric/Finding,Value,Unit,Year,Source Name,Source URL,Source Tier,Confidence,Notes,Date Added
-D1-001,Codec Adoption,,,,,,,,,,,
+D1-001,Streaming Protocol,HLS Segment Length (Typical),2,seconds,2025,Livepeer Whitepaper,https://github.com/livepeer/wiki/blob/master/WHITEPAPER.md,Tier 2,MEDIUM,Parameter T in protocol - standard segment duration,2026-02-17
+D1-002,Quality Verification,Livepeer Verification Rate,0.2,percent,2025,Livepeer Whitepaper,https://github.com/livepeer/wiki/blob/master/WHITEPAPER.md,Tier 2,MEDIUM,1 in 500 segments verified (1/500 = 0.2%),2026-02-17
+D1-003,Quality Verification,Truebit Verification Cost Overhead,5-50,x original cost,2025,Livepeer Whitepaper,https://github.com/livepeer/wiki/blob/master/WHITEPAPER.md,Tier 2,MEDIUM,Verification costs 5x-50x the original transcoding work,2026-02-17
+D1-004,P2P CDN,Bandwidth Reduction on Origin (P2P),80-98,percent,2025,Livepeer Whitepaper,https://github.com/livepeer/wiki/blob/master/WHITEPAPER.md,Tier 2,MEDIUM,P2P CDN can reduce origin server bandwidth by 80-98%,2026-02-17
+D1-005,Protocol Economics,Livepeer Token Inflation Rate Example,15,percent/year,2025,Livepeer Whitepaper,https://github.com/livepeer/wiki/blob/master/WHITEPAPER.md,Tier 2,MEDIUM,Equivalent to 0.04% per round with 1-day rounds,2026-02-17
+D1-006,Protocol Economics,Livepeer Failed Verification Slash,5,percent,2025,Livepeer Whitepaper,https://github.com/livepeer/wiki/blob/master/WHITEPAPER.md,Tier 2,MEDIUM,Penalty for transcoders who fail verification,2026-02-17
+D1-007,Protocol Economics,Livepeer Missed Verification Slash,10,percent,2025,Livepeer Whitepaper,https://github.com/livepeer/wiki/blob/master/WHITEPAPER.md,Tier 2,MEDIUM,Penalty for transcoders who miss verification call,2026-02-17
+D1-008,Protocol Economics,Livepeer Participation Target,50,percent,2025,Livepeer Whitepaper,https://github.com/livepeer/wiki/blob/master/WHITEPAPER.md,Tier 2,MEDIUM,Target participation rate for network,2026-02-17
+D1-009,Protocol Economics,Livepeer Active Transcoders (Example),144,nodes,2025,Livepeer Whitepaper,https://github.com/livepeer/wiki/blob/master/WHITEPAPER.md,Tier 2,MEDIUM,Example N value - number of active transcoders,2026-02-17
+D1-010,Protocol Economics,Livepeer Round Length,1,day,2025,Livepeer Whitepaper,https://github.com/livepeer/wiki/blob/master/WHITEPAPER.md,Tier 2,MEDIUM,Duration for transcoder selection rounds,2026-02-17
+D1-011,Protocol Economics,Livepeer Unbonding Period,30,days,2025,Livepeer Whitepaper,https://github.com/livepeer/wiki/blob/master/WHITEPAPER.md,Tier 2,MEDIUM,Lock period for unstaking tokens,2026-02-17
+D1-012,Adaptive Bitrate,HLS Bitrate Range (Low),140,kbps,2025,Streamline Video Reference,https://github.com/streamlinevideo/streamline,Tier 2,MEDIUM,Audio-only lowest rendition in ABR ladder,2026-02-17
+D1-013,Adaptive Bitrate,HLS Bitrate Range (High),13340,kbps,2025,Streamline Video Reference,https://github.com/streamlinevideo/streamline,Tier 2,MEDIUM,1080p highest quality rendition (13.34 Mbps),2026-02-17
+D1-014,Adaptive Bitrate,HLS Rendition Count (Example),7,renditions,2025,Streamline Video Reference,https://github.com/streamlinevideo/streamline,Tier 2,MEDIUM,Typical ABR ladder with 7 quality levels,2026-02-17
+D1-015,Streaming Protocol,HLS Segment Duration Range,1-10,seconds,2025,Streamline Video Reference,https://github.com/streamlinevideo/streamline,Tier 2,MEDIUM,Configurable segment length - shorter = lower latency,2026-02-17
+D1-016,Hardware Encoding,NVIDIA Quadro Unlimited Encodes,1,boolean,2025,Streamline Video Reference,https://github.com/streamlinevideo/streamline,Tier 2,MEDIUM,Professional GPUs have no encode session limit,2026-02-17

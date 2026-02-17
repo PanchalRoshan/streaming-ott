@@ -1,2 +1,6 @@
 Data Point ID,Category,Metric/Finding,Value,Unit,Year,Source Name,Source URL,Source Tier,Confidence,Notes,Date Added
-D3-001,Platform Metrics,,,,,,,,,,,
+D3-001,CDN Strategy,Netflix CDN Architecture Model,Push-based,text,2025,System Design CDN,https://github.com/DreamOfTheRedChamber/system-design-interviews/blob/master/networkComponents/cdn.md,Tier 2,MEDIUM,Netflix uses push-based CDN with off-peak precaching,2026-02-17
+D3-002,Scale Economics,Large Platform Daily CDN Cost (5M users),150000,USD/day,2025,System Design CDN,https://github.com/DreamOfTheRedChamber/system-design-interviews/blob/master/networkComponents/cdn.md,Tier 2,MEDIUM,Based on 5M users × 5 videos × 0.3GB × $0.02/GB,2026-02-17
+D3-003,Scale Economics,Monthly CDN Cost at 5M User Scale,4500000,USD/month,2025,System Design CDN,https://github.com/DreamOfTheRedChamber/system-design-interviews/blob/master/networkComponents/cdn.md,Tier 2,MEDIUM,$150K/day × 30 days = $4.5M/month CDN costs,2026-02-17
+D3-004,User Engagement,Average Videos per User (Assumption),5,videos/day,2025,System Design CDN,https://github.com/DreamOfTheRedChamber/system-design-interviews/blob/master/networkComponents/cdn.md,Tier 2,LOW,Used in example calculation - may vary by platform,2026-02-17
+D3-005,Content Delivery,Average Video Size (Assumption),0.3,GB/video,2025,System Design CDN,https://github.com/DreamOfTheRedChamber/system-design-interviews/blob/master/networkComponents/cdn.md,Tier 2,LOW,Used in cost calculation - varies by resolution,2026-02-17
